@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Espace Médecin - Casier</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1> Configuration Traitement</h1>
+    <div class="card">
+        <h3>Tiroir 1</h3>
+        <label>Patient (Username):</label>
+        <input type="text" id="user1" placeholder="ex: jean-dupont">
+        
+        <label>Heure de prise:</label>
+        <input type="text" id="time1" placeholder="HH:mm (ex: 08:30)">
+        
+        <label>Médicament:</label>
+        <input type="text" id="Object1" placeholder="ex: Doliprane">
+
+        <button type="button" onclick="Sendinfo(1)">Enregistrer dans le casier</button>
+        <button type="button" class="btn-logout" onclick="Eraseinfo(1)">Effacer le traitement</button>
+
+    </div>
+    <div class="card">
+        <h3>Tiroir 2</h3>
+        <label>Patient (Username):</label>
+        <input type="text" id="user2" placeholder="ex: jean-dupont">
+        
+        <label>Heure de prise:</label>
+        <input type="text" id="time2" placeholder="HH:mm (ex: 08:30)">
+        
+        <label>Médicament:</label>
+        <input type="text" id="Object2" placeholder="ex: Doliprane">
+
+        <button type="button" onclick="Sendinfo(2)">Enregistrer dans le casier</button>
+        <button type="button" class="btn-logout" onclick="Eraseinfo(2)">Effacer le traitement</button>
+
+    </div>
+    <div class="card">
+        <h3>Tiroir 3</h3>
+        <label>Patient (Username):</label>
+        <input type="text" id="user3" placeholder="ex: jean-dupont">
+        
+        <label>Heure de prise:</label>
+        <input type="text" id="time3" placeholder="HH:mm (ex: 08:30)">
+        
+        <label>Médicament:</label>
+        <input type="text" id="Object3" placeholder="ex: Doliprane">
+
+        <button type="button" onclick="Sendinfo(3)">Enregistrer dans le casier</button>
+        <button type="button" class="btn-logout" onclick="Eraseinfo(3)">Effacer le traitement</button>
+
+    </div>
+
+    <!-- Un seul script, pas de doublon -->
+    <script src="/static/script.js"></script>
+    <a href="/logout" class="btn-logout">Se déconnecter</a>
+</body>
+</html>

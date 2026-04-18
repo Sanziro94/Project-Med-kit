@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Portal - Login</title>
+    <!-- BUG FIX: was ../static/style.css which breaks Flask's static serving -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="medical-icon">✚</div>
+        <h1>Patient Portal</h1>
+        <p>Please enter your credentials to access your records.</p>
+
+        <!-- BUG FIX: added status-msg element so JS can show feedback inline -->
+        <div id="status-msg" style="display:none;margin-bottom:10px;font-size:0.9rem;"></div>
+
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Username" required autocomplete="username">
+        </div>
+        <div class="input-group">
+            <!-- BUG FIX: added autocomplete attribute for password managers -->
+            <input type="password" id="password" placeholder="Password" required autocomplete="current-password">
+        </div>
+
+        <a href="/reset-page" style="color:blue">Mot de passe oublié ?</a>
+
+        <button onclick="CredentialCheck()" class="btn-primary">Secure Login</button>
+
+        <a href="/register-page" style="color:blue">New User ?</a>
+
+        <footer class="login-footer">
+            &copy; 2026 HealthSync Systems | Secure End-to-End Encryption
+        </footer>
+    </div>
+
+    <script src="/static/script.js" defer></script>
+</body>
+</html>

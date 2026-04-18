@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Med-kit services</title>
+    <link rel="stylesheet" href="/static/style.css">
+<body>
+    <div class="register-container">
+        <div class="medical-icon">✚</div>
+        <h1>Reset your password</h1>
+        <p>Fill the username and password field</p>
+
+        <div class="input-group">
+            <input type="text"     id="username" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+            <input type="text"     id="passkey"      placeholder="Passkey" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button class="btn-primary" onclick="Resetpass()">CReset</button>
+    </div>
+
+    <!-- defer ensures DOM is ready before script runs -->
+    <script src="/static/script.js" defer></script>
+    <a href="/logout" class="btn-logout">Se déconnecter</a>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Med-kit services</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="medical-icon">✚</div>
+        <h1>Create Account</h1>
+        <p>Fill in all fields. Scan your RFID card after creation.</p>
+
+        <div class="input-group">
+            <input type="text"     id="nusername" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+            <input type="text"     id="user"      placeholder="Full name (e.g. Jean-Dupont)" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="npassword" placeholder="Password" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="admin"     placeholder="Admin code (leave blank if patient)">
+        </div>
+        <div class="input-group">
+            <input type="passkey" id="passk"     placeholder="Set your passkey">
+        </div>
+
+        <button class="btn-primary" onclick="CredentialSave()">Create account</button>
+    </div>
+
+    <!-- defer ensures DOM is ready before script runs -->
+    <script src="/static/script.js" defer></script>
+    <a href="/logout" class="btn-logout">back home</a>
+</body>
+</html>

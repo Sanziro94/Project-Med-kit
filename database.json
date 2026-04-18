@@ -1,0 +1,44 @@
+{
+    "test": {
+        "password": "86656eeb51c15bc085d6a34f2ee79380d14b6d668fbf964d320c59310391da87",
+        "user": "test",
+        "passk": "86656eeb51c15bc085d6a34f2ee79380d14b6d668fbf964d320c59310391da87",
+        "given_page": "/article",
+        "traitement": []
+    },
+    "jean": {
+        "password": "384b8c4ac332a7eda81dbaac636ebda3ff7fbe8b2efe58f961cf079f17ee5cae",
+        "user": "Jean-Dupont",
+        "passk": "e4288e43273443d79d0a196b69e25b846b8ab80da3ce2097945e1dac2216d222",
+        "given_page": "/article",
+        "traitement": [
+            {
+                "time": "05:30",
+                "object": "Doliprane 1000mg",
+                "tiroirs": 1,
+                "add_time": "2026-04-17"
+            }
+        ]
+    },
+    "test1": {
+        "password": "f80cf7b23f8f8feedae432be094c102391a79bafa36c8554494400977885771a",
+        "user": "test1",
+        "passk": "76f6d0d36db72c9e9cbeba79dfdf84935c1aa1105160968532fab0eb445efb8a",
+        "given_page": "/manager",
+        "traitement": []
+    },
+    "salvo": {
+        "password": "9c89a04fed282d2895a72a0c2c9419e3f6649ad2d31f416324a10baf0b98a851",
+        "user": "salvo",
+        "passk": "8c843cf1c651f9752646a19a1fe74949681460b778c4a708975ca6513e7cd1a7",
+        "given_page": "/manager",
+        "traitement": []
+    },
+    "ilias": {
+        "password": "3787d7446de817f50203234b5543632a7b298de63a1fe5356cd56c566f377342",
+        "user": "ilias",
+        "passk": "3787d7446de817f50203234b5543632a7b298de63a1fe5356cd56c566f377342",
+        "given_page": "/manager",
+        "traitement": []
+    }
+}

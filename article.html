@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon traitement – MedKit</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="card">
+        <div class="icon">💊</div>
+        <h2>Mon traitement</h2>
+        <p class="subtitle">Votre prescription du jour</p>
+
+         <h2>Mes Traitements</h2>
+        <div id="medication-list">
+        </div>
+
+        <div id="traitement-content">
+            <p style="color:#7f8c8d;text-align:center">Chargement...</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Informations</h2>
+        <p class="subtitle">Portail patient MedKit</p>
+        <div class="info-row">
+            <span class="info-label">Statut</span>
+            <span class="badge badge-green">Connecté</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Accès</span>
+            <span class="badge badge-blue">Patient</span>
+        </div>
+    </div>
+
+    <a href="/logout" class="btn-logout">Se déconnecter</a>
+</div>
+
+<script src="static/script"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+/* --- BASE & RESET --- */
+body { 
+    background-color: #f0f4f8; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 20px;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* --- STRUCTURE --- */
+.container, .login-container, .register-container { 
+    max-width: 450px; 
+    margin: 40px auto; 
+    background: white; 
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-top: 6px solid #007bff; /* Bleu Médical */
+    text-align: center;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* --- TEXTES --- */
+h1, h2, h3 { color: #2c3e50; margin-top: 0; }
+p { color: #7f8c8d; font-size: 0.95rem; }
+.subtitle { color: #95a5a6; font-size: 0.85rem; margin-top: -10px; margin-bottom: 20px; }
+
+/* --- FORMULAIRES --- */
+.input-group { margin-bottom: 15px; text-align: left; }
+label { display: block; margin-bottom: 5px; font-weight: 600; font-size: 0.9rem; }
+
+input { 
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #dcdde1; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* --- BOUTONS --- */
+button, .btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Vert pour validation */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover { background-color: #218838; }
+
+/* Bouton secondaire (ex: Effacer/Déconnexion) */
+/* Bouton Standard (Vert) */
+button, .btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Vert médical */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Bouton Alerte / Effacer (Rouge) */
+.btn-logout, .btn-delete {
+    width: 100%;
+    padding: 12px;
+    background-color: #dc3545; /* Rouge alerte */
+    color: white !important;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+}
+
+/* --- ÉLÉMENTS SPÉCIFIQUES --- */
+.info-row { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 0; 
+    border-bottom: 1px solid #f0f0f0; 
+}
+
+.badge {
+    padding: 4px 12px; 
+    border-radius: 20px;
+    font-size: 0.8rem; 
+    font-weight: 700;
+}
+
+.badge-green  { background: #e6f9f0; color: #1a7f4b; }
+.badge-blue   { background: #e3f0ff; color: #0056b3; }
+.badge-perime { background: #ffe3e3; color: #dc3545; }
+
+.alert {
+    background: #fff3cd; 
+    border-left: 4px solid #ffc107;
+    padding: 12px; 
+    border-radius: 4px;
+    color: #856404;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.medical-icon, .icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.login-footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #bdc3c7;
+}

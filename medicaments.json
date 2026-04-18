@@ -1,0 +1,146 @@
+{
+    "Doliprane 1000mg": {
+        "disponibility": 50,
+        "size": 90,
+        "producer": "Sanofi",
+        "days": 5
+    },
+    "Doliprane 500mg": {
+        "disponibility": 50,
+        "size": 75,
+        "producer": "Sanofi",
+        "days": 5
+    },
+    "Efferalgan 1000mg": {
+        "disponibility": 50,
+        "size": 88,
+        "producer": "UPSA",
+        "days": 5
+    },
+    "Ibuprofene 400mg": {
+        "disponibility": 50,
+        "size": 80,
+        "producer": "Mylan",
+        "days": 5
+    },
+    "Amoxicilline 500mg": {
+        "disponibility": 50,
+        "size": 85,
+        "producer": "Biogaran",
+        "days": 7
+    },
+    "Augmentin 1g": {
+        "disponibility": 50,
+        "size": 95,
+        "producer": "GlaxoSmithKline",
+        "days": 7
+    },
+    "Azithromycine 250mg": {
+        "disponibility": 50,
+        "size": 70,
+        "producer": "Zentiva",
+        "days": 3
+    },
+    "Omeprazole 20mg": {
+        "disponibility": 50,
+        "size": 76,
+        "producer": "Mylan",
+        "days": 14
+    },
+    "Metformine 500mg": {
+        "disponibility": 50,
+        "size": 88,
+        "producer": "Merck",
+        "days": 30
+    },
+    "Atorvastatine 20mg": {
+        "disponibility": 50,
+        "size": 75,
+        "producer": "Pfizer",
+        "days": 30
+    },
+    "Ramipril 5mg": {
+        "disponibility": 50,
+        "size": 70,
+        "producer": "Sanofi",
+        "days": 30
+    },
+    "Amlodipine 5mg": {
+        "disponibility": 50,
+        "size": 68,
+        "producer": "Pfizer",
+        "days": 30
+    },
+    "Levothyrox 50mcg": {
+        "disponibility": 50,
+        "size": 72,
+        "producer": "Merck",
+        "days": 30
+    },
+    "Levothyrox 100mcg": {
+        "disponibility": 50,
+        "size": 72,
+        "producer": "Merck",
+        "days": 30
+    },
+    "Sertraline 50mg": {
+        "disponibility": 50,
+        "size": 74,
+        "producer": "Pfizer",
+        "days": 30
+    },
+    "Prednisolone 20mg": {
+        "disponibility": 50,
+        "size": 74,
+        "producer": "Mylan",
+        "days": 7
+    },
+    "Salbutamol 100mcg": {
+        "disponibility": 50,
+        "size": 60,
+        "producer": "GlaxoSmithKline",
+        "days": 30
+    },
+    "Cetirizine 10mg": {
+        "disponibility": 50,
+        "size": 68,
+        "producer": "UCB",
+        "days": 14
+    },
+    "Doxycycline 100mg": {
+        "disponibility": 50,
+        "size": 76,
+        "producer": "Biogaran",
+        "days": 7
+    },
+    "Aciclovir 200mg": {
+        "disponibility": 50,
+        "size": 78,
+        "producer": "Zentiva",
+        "days": 5
+    },
+    "Furosemide 40mg": {
+        "disponibility": 50,
+        "size": 70,
+        "producer": "Sanofi",
+        "days": 30
+    },
+    "Bisoprolol 5mg": {
+        "disponibility": 50,
+        "size": 70,
+        "producer": "Merck",
+        "days": 30
+    },
+    "Loratadine 10mg": {
+        "disponibility": 50,
+        "size": 68,
+        "producer": "Biogaran",
+        "days": 14
+    },
+    "Ciprofloxacine 500mg": {
+        "disponibility": 50,
+        "size": 82,
+        "producer": "Bayer",
+        "days": 7
+    }
+}
